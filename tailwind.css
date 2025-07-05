@@ -1,0 +1,100 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button,
+  input,
+  select,
+  textarea {
+    @apply appearance-none bg-transparent border-0 outline-none;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .all-\[unset\] {
+    all: unset;
+  }
+}
+
+:root {
+  --dekr-2-5: 10px;
+  --dekr-3-5: 14px;
+  --dekr-5: 20px;
+  --dekr-color-blue-blue-200: rgba(167, 184, 212, 1);
+  --dekr-color-blue-blue-300: rgba(128, 152, 192, 1);
+  --dekr-color-blue-blue-500: rgba(50, 89, 154, 1);
+  --dekr-color-dark-teal-dark-teal-400: rgba(58, 91, 91, 1);
+  --dekr-color-dark-teal-dark-teal-500: rgba(12, 52, 52, 1);
+  --dekr-color-green-green-400: rgba(116, 135, 88, 1);
+  --dekr-color-green-green-500: rgba(83, 107, 49, 1);
+  --dekr-color-green-green-600: rgba(66, 86, 39, 1);
+  --dekr-color-manilla-manilla-300: rgba(246, 240, 223, 1);
+  --dekr-color-mustard-mustard-200: rgba(239, 219, 162, 1);
+  --dekr-color-mustard-mustard-600: rgba(174, 138, 31, 1);
+  --dekr-color-smoke-purple-smoke-purple-500: rgba(97, 86, 97, 1);
+  --dekr-color-warm-pink-warm-pink-100: rgba(253, 246, 241, 1);
+  --dekr-color-warm-pink-warm-pink-200: rgba(252, 239, 231, 1);
+  --dekr-color-warm-pink-warm-pink-300: rgba(250, 232, 221, 1);
+  --dekr-color-warm-pink-warm-pink-400: rgba(249, 225, 210, 1);
+  --dekr-color-warm-pink-warm-pink-500: rgba(247, 218, 200, 1);
+  --dekr-theme-border: var(--dekr-color-green-green-600);
+  --dekr-theme-primary-background: var(--dekr-color-green-green-400);
+  --dekr-theme-primary-text: var(--dekr-color-warm-pink-warm-pink-100);
+  --dekr-theme-secondary-background: var(--dekr-color-warm-pink-warm-pink-300);
+  --dekr-theme-secondary-text: var(--dekr-color-green-green-600);
+  --marketing-headline-1-font-family: "Austin News Headline Cond", Helvetica;
+  --marketing-headline-1-font-size: 86px;
+  --marketing-headline-1-font-style: normal;
+  --marketing-headline-1-font-weight: 500;
+  --marketing-headline-1-letter-spacing: 0px;
+  --marketing-headline-1-line-height: 87px;
+  --marketing-headline-2-font-family: "Austin News Headline Cond", Helvetica;
+  --marketing-headline-2-font-size: 48px;
+  --marketing-headline-2-font-style: normal;
+  --marketing-headline-2-font-weight: 500;
+  --marketing-headline-2-letter-spacing: 0px;
+  --marketing-headline-2-line-height: 57px;
+  --marketing-hyperlink-font-family: "Graphik", Helvetica;
+  --marketing-hyperlink-font-size: 24px;
+  --marketing-hyperlink-font-style: normal;
+  --marketing-hyperlink-font-weight: 400;
+  --marketing-hyperlink-letter-spacing: 0px;
+  --marketing-hyperlink-line-height: 32px;
+  --marketing-pagagraph-font-family: "Graphik", Helvetica;
+  --marketing-pagagraph-font-size: 20px;
+  --marketing-pagagraph-font-style: normal;
+  --marketing-pagagraph-font-weight: 400;
+  --marketing-pagagraph-letter-spacing: 0px;
+  --marketing-pagagraph-line-height: 27px;
+  --marketing-paragraph-24-font-family: "Graphik", Helvetica;
+  --marketing-paragraph-24-font-size: 24px;
+  --marketing-paragraph-24-font-style: normal;
+  --marketing-paragraph-24-font-weight: 400;
+  --marketing-paragraph-24-letter-spacing: 0px;
+  --marketing-paragraph-24-line-height: 35px;
+  --monospace-text-font-family: "Geist Mono", Helvetica;
+  --monospace-text-font-size: 18px;
+  --monospace-text-font-style: normal;
+  --monospace-text-font-weight: 300;
+  --monospace-text-letter-spacing: 0px;
+  --monospace-text-line-height: 31px;
+  --primitives-tailwindcss-radius-md: 6px;
+  --primitives-tailwindcss-spacing-1-5: 6px;
+  --text-lg-medium-font-family: "Graphik", Helvetica;
+  --text-lg-medium-font-size: 18px;
+  --text-lg-medium-font-style: normal;
+  --text-lg-medium-font-weight: 500;
+  --text-lg-medium-letter-spacing: 0px;
+  --text-lg-medium-line-height: 28px;
+  --text-xl-medium-font-family: "Graphik", Helvetica;
+  --text-xl-medium-font-size: 20px;
+  --text-xl-medium-font-style: normal;
+  --text-xl-medium-font-weight: 500;
+  --text-xl-medium-letter-spacing: 0px;
+  --text-xl-medium-line-height: 28px;
+  --variable-collection-transparent-light-pink: rgba(253, 246, 241, 0.65);
+}
