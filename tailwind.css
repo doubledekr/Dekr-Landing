@@ -1,16 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-@layer base {
-  button,
-  input,
-  select,
-  textarea {
-    @apply appearance-none bg-transparent border-0 outline-none;
-  }
-}
-
 @tailwind components;
 @tailwind utilities;
 
@@ -57,7 +44,7 @@
   --marketing-headline-2-font-style: normal;
   --marketing-headline-2-font-weight: 500;
   --marketing-headline-2-letter-spacing: 0px;
-  --marketing-headline-2-line-height: 57px;
+  --marketing-headline-2-line-height: 120.00000476837158%;
   --marketing-hyperlink-font-family: "Graphik", Helvetica;
   --marketing-hyperlink-font-size: 24px;
   --marketing-hyperlink-font-style: normal;
@@ -75,7 +62,13 @@
   --marketing-paragraph-24-font-style: normal;
   --marketing-paragraph-24-font-weight: 400;
   --marketing-paragraph-24-letter-spacing: 0px;
-  --marketing-paragraph-24-line-height: 35px;
+  --marketing-paragraph-24-line-height: 134.0000033378601%;
+  --mobile-headline-font-family: "Austin News Headline Cond", Helvetica;
+  --mobile-headline-font-size: 36px;
+  --mobile-headline-font-style: normal;
+  --mobile-headline-font-weight: 500;
+  --mobile-headline-letter-spacing: 0px;
+  --mobile-headline-line-height: 104.99999523162842%;
   --monospace-text-font-family: "Geist Mono", Helvetica;
   --monospace-text-font-size: 18px;
   --monospace-text-font-style: normal;

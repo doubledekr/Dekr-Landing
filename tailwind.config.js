@@ -40,6 +40,7 @@ module.exports = {
         "marketing-hyperlink": "var(--marketing-hyperlink-font-family)",
         "marketing-pagagraph": "var(--marketing-pagagraph-font-family)",
         "marketing-paragraph-24": "var(--marketing-paragraph-24-font-family)",
+        "mobile-headline": "var(--mobile-headline-font-family)",
         "monospace-text": "var(--monospace-text-font-family)",
         "text-lg-medium": "var(--text-lg-medium-font-family)",
         "text-xl-medium": "var(--text-xl-medium-font-family)",
